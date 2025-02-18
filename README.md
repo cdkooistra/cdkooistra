@@ -45,5 +45,3 @@ I'm a MSc Computer Security student at the VU. I currently work for [MovingMedia
 ## 🔗 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cdkooistra)
-
----
