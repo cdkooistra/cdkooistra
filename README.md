@@ -42,12 +42,6 @@ I'm a MSc Computer Security student at the VU. I currently work for [MovingMedia
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Zola](https://img.shields.io/badge/Zola-222222?style=for-the-badge&logo=Zola&logoColor=white)
 
-## 📊 GitHub Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=cdkooistra&theme=dark&hide_border=true)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdkooistra&show_icons=true&theme=dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cdkooistra&layout=compact&theme=dark&hide_border=true)
-
 ## 🔗 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cdkooistra)
