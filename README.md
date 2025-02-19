@@ -1,12 +1,13 @@
 # Hi there 👋
 
-I'm a MSc Computer Security student at the VU and currently working for [MovingMedia](https://movingmedia.nl) as a Systems Integrator/Developer.
+My name is Connor and I am MSc Computer Security student at the VU.
+Additionally, I am currently working for [MovingMedia](https://movingmedia.nl) as a Systems Integrator/Developer.
 
 For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
 
 Besides my studies and work, I am learning Rust to deepen my knowledge and skills of writing performant and memory-safe code, particularly for systems programming and security applications.
 
-## 🛠 Tech Stack
+## Tech Stack 🛠
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
