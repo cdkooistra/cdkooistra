@@ -1,6 +1,6 @@
 # Hi there 👋
 
-My name is Connor and I am MSc Computer Security student at the VU.
+My name is Connor and I am an MSc Computer Security student at the VU.
 Additionally, I am currently working for [MovingMedia](https://movingmedia.nl) as a Systems Integrator/Developer.
 
 For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
