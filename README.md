@@ -1,11 +1,11 @@
 # Hi there 👋
 
-My name is Connor and I am a MSc Computer Security student at the VU.
-Additionally, I am currently working for [MovingMedia](https://movingmedia.nl) as a Systems Integrator/Developer.
+My name is Connor and I am the founder of [Kooistra Cyber Solutions](https://kooistracs.nl).
+Additionally, I am currently in my 2nd year of my MSc Computer Security at the [Vrije Universiteit](https://vu.nl).
 
 For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
 
-Besides my studies and work, I am learning Rust to deepen my knowledge and skills of writing performant and memory-safe code, particularly for systems programming and security applications.
+I apply this knowledge directly in projects through my company, where I build robust and secure systems for organizations. For this I mainly use Rust and Python. Recently Rust has become a valuable part of my toolkit for (secure) systems programming, where safety, reliability and performance is critical.
 
 ## Tech Stack 🛠
 
