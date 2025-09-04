@@ -5,7 +5,7 @@ Additionally, I am currently in my 2nd year of my MSc Computer Security at the [
 
 For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
 
-I apply this knowledge directly in projects through my company, where I build robust and secure systems for organizations. For this I mainly use Rust and Python. Recently Rust has become a valuable part of my toolkit for (secure) systems programming, where safety, reliability and performance is critical.
+As a freelancer, I apply this knowledge directly in projects through my company, where I build robust and secure systems for organizations. For this I mainly use Rust and Python. Recently, Rust has become an essential part of my toolkit for secure systems programming, offering safety, reliability, and performance where it matters most. I am keen and passionate about using my skills to deliver resilient solutions in an increasingly complex field.
 
 ## Tech Stack 🛠
 
