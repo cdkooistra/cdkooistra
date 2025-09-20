@@ -1,0 +1,16 @@
+name: Update from Infohub
+
+on:
+  repository_dispatch:
+    types: [infohub-content-update]
+
+jobs:
+  update-readme:
+    uses: cdkooistra/infohub/.github/workflows/processor.yml@main
+    with:
+      apply_script: |
+        # Copy the downloaded content to README.md
+        cp "$CONTENT/content/profile-readme.md" README.md
+        echo "✅ Updated README.md from infohub"
+    secrets:
+      INFOHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
