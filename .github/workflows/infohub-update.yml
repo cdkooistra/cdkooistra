@@ -9,8 +9,7 @@ jobs:
     uses: cdkooistra/infohub/.github/workflows/processor.yml@main
     with:
       apply_script: |
-        # Copy the downloaded content to README.md
         cp "$CONTENT/content/profile-readme.md" README.md
-        echo "✅ Updated README.md from infohub"
+        echo "Updated README.md from infohub"
     secrets:
       INFOHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
