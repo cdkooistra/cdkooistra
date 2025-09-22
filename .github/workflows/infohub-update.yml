@@ -5,6 +5,13 @@ on:
     types: [infohub-content-update]
 
 jobs:
+  test-access:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test access to infohub
+        run: |
+          curl -H "Authorization: token ${{ secrets.INFOHUB_TOKEN }}" \
+               https://api.github.com/repos/cdkooistra/infohub
   update-readme:
     uses: cdkooistra/infohub/.github/workflows/processor.yml@main
     with:
