@@ -7,6 +7,10 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -28,17 +32,10 @@ jobs:
 
       - name: Cleanup artifact
         run: rm -rf ./artifact
-
+        
       - name: Commit and push changes
-        run: |
-          git config --local user.email "infohub-bot@users.noreply.github.com"
-          git config --local user.name "infohub-bot"
-          git add README.md
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update content from infohub: ${{ github.event.client_payload.content_path }} [bot]"
-            git push
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: stefanzweifel/git-auto-commit-action@v6      
+        with:
+          commit_message: "chore: update content from infohub: ${{ github.event.client_payload.content_path }} [bot]"
+          commit_user_name: infohub[bot]
+          commit_user_email: infohub[bot]@users.noreply.github.com
