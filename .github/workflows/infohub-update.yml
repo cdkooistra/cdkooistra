@@ -26,11 +26,14 @@ jobs:
           cp "$CONTENT/profile-readme.md" README.md
           echo "Updated README.md from infohub"
 
+      - name: Cleanup artifact
+        run: rm -rf ./artifact
+
       - name: Commit and push changes
         run: |
           git config --local user.email "infohub-bot@users.noreply.github.com"
           git config --local user.name "infohub-bot"
-          git add .
+          git add README.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -38,4 +41,4 @@ jobs:
             git push
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
