@@ -18,12 +18,12 @@ jobs:
           repository: ${{ github.event.client_payload.source_repo }}
           run-id: ${{ github.event.client_payload.run_id }}
           name: ${{ github.event.client_payload.artifact_name }}
-          path: ./downloaded-content
+          path: ./artifact
 
       - name: Apply content
         run: |
-          CONTENT="./downloaded-content/"
-          cp "$CONTENT/content/profile-readme.md" README.md
+          CONTENT="./artifact"
+          cp "$CONTENT/profile-readme.md" README.md
           echo "Updated README.md from infohub"
 
       - name: Commit and push changes
@@ -39,4 +39,3 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
-  
