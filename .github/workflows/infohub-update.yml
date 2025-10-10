@@ -20,10 +20,17 @@ jobs:
           name: ${{ github.event.client_payload.artifact_name }}
           path: ./downloaded-content
 
+      - name: Debug - List downloaded contents
+        run: |
+          echo "Contents of downloaded-content:"
+          ls -la ./downloaded-content/
+          echo "Full tree:"
+          find ./downloaded-content/ -type f
+
       - name: Apply content
         run: |
           CONTENT="./downloaded-content/"
-          cp "$CONTENT/content/profile-readme.md" README.md
+          cp "$CONTENT/profile-readme.md" README.md
           echo "Updated README.md from infohub"
 
       - name: Commit and push changes
@@ -39,4 +46,4 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
-  
+          
