@@ -5,18 +5,38 @@ on:
     types: [infohub-content-update]
 
 jobs:
-  test-access:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Test access to infohub
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Download artifact from infohub
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ secrets.INFOHUB_TOKEN }}
+          repository: ${{ github.event.client_payload.source_repo }}
+          run-id: ${{ github.event.client_payload.run_id }}
+          name: ${{ github.event.client_payload.artifact_name }}
+          path: ./downloaded-content
+
+      - name: Apply content
         run: |
-          curl -H "Authorization: token ${{ secrets.INFOHUB_TOKEN }}" \
-               https://api.github.com/repos/cdkooistra/infohub
-  update-readme:
-    uses: cdkooistra/infohub/.github/workflows/processor.yml@main
-    with:
-      apply_script: |
-        cp "$CONTENT/content/profile-readme.md" README.md
-        echo "Updated README.md from infohub"
-    secrets:
-      INFOHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
+          CONTENT="./downloaded-content/"
+          cp "$CONTENT/content/profile-readme.md" README.md
+          echo "Updated README.md from infohub"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "infohub-bot@users.noreply.github.com"
+          git config --local user.name "infohub-bot"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update content from infohub: ${{ github.event.client_payload.content_path }} [bot]"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.INFOHUB_TOKEN }}
+  
