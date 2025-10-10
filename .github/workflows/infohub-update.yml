@@ -36,6 +36,6 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6      
         with:
-          commit_message: "chore: update content from infohub: ${{ github.event.client_payload.content_path }} [bot]"
+          commit_message: "chore: update content from infohub [bot]"
           commit_user_name: infohub[bot]
           commit_user_email: infohub[bot]@users.noreply.github.com
