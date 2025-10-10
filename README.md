@@ -1,13 +1,13 @@
-# Hi there 👋
+# Hi there
 
-My name is Connor and I am the founder of [Kooistra Cyber Solutions](https://kooistracs.nl).
-Additionally, I am currently in my 2nd year of my MSc Computer Security at the [Vrije Universiteit](https://vu.nl).
+My name is Connor Kooistra and I am the founder of [Kooistra Cyber Solutions](https://kooistracs.nl).
+Additionally, I am currently in my 2nd year of the MSc Computer Security at the [Vrije Universiteit](https://vu.nl).
 
 For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
 
 As a freelancer, I apply this knowledge directly in projects through my company, where I build robust and secure systems for organizations. For this I mainly use Rust and Python. Recently, Rust has become an essential part of my toolkit for secure systems programming, offering safety, reliability, and performance where it matters most. I am keen and passionate about using my skills to deliver resilient solutions in an increasingly complex field.
 
-## Tech Stack 🛠
+## Tech Stack
 
 ![Rust](https://img.shields.io/static/v1?label=&message=Rust&color=000000&style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&style=for-the-badge&logo=python&logoColor=white)
@@ -17,7 +17,6 @@ As a freelancer, I apply this knowledge directly in projects through my company,
 ![Markdown](https://img.shields.io/static/v1?label=&message=Markdown&color=000000&style=for-the-badge&logo=markdown&logoColor=white)
 ![FastAPI](https://img.shields.io/static/v1?label=&message=FastAPI&color=009688&style=for-the-badge&logo=fastapi&logoColor=white)
 ![JWT](https://img.shields.io/static/v1?label=&message=JWT&color=000000&style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=FF69B4&style=for-the-badge&logo=SASS&logoColor=white)
 ![MySQL](https://img.shields.io/static/v1?label=&message=MySQL&color=4479A1&style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=336791&style=for-the-badge&logo=postgresql&logoColor=white)
 ![MariaDB](https://img.shields.io/static/v1?label=&message=MariaDB&color=003545&style=for-the-badge&logo=mariadb&logoColor=white)
