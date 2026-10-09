@@ -1,11 +1,8 @@
-# Hi there
+# Hi there!
 
 My name is Connor Kooistra and I am the founder of [Kooistra Cyber Solutions](https://kooistracs.nl).
-Additionally, I am currently in my 2nd year of the MSc Computer Security at the [Vrije Universiteit](https://vu.nl).
 
-For my studies I focus on topics such as software security, network security, systems engineering, and secure software development, exploring how to build resilient and robust systems.
-
-As a freelancer, I apply this knowledge directly in projects through my company, where I build robust and secure systems for organizations. For this I mainly use Rust and Python. Recently, Rust has become an essential part of my toolkit for secure systems programming, offering safety, reliability, and performance where it matters most. I am keen and passionate about using my skills to deliver resilient solutions in an increasingly complex field.
+As a freelancer, I work mostly on robust and secure systems for organizations (integrations, APIs, gateways, and more). For this I mainly use Rust. I am keen and passionate on using Rust to deliver resilient solutions in an increasingly complex field.
 
 ## Tech Stack
 
@@ -18,5 +15,4 @@ As a freelancer, I apply this knowledge directly in projects through my company,
 ![Docker](https://img.shields.io/static/v1?label=&message=Docker&color=2496ED&style=for-the-badge&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/static/v1?label=&message=Azure&color=0078D4&style=for-the-badge&logo=azure&logoColor=white)
 ![Apache](https://img.shields.io/static/v1?label=&message=Apache&color=D22128&style=for-the-badge&logo=apache&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/static/v1?label=&message=Linux&color=FCC624&style=for-the-badge&logo=linux&logoColor=black)
